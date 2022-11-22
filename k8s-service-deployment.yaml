@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: 150100175/aditya:322
+        image: '$(Build.BuildId)'
         ports:
         - containerPort: 80
 ---  
