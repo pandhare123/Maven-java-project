@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: 150100175/aditya:316
+        image: 150100175/aditya:321
         ports:
         - containerPort: 80
 ---  
